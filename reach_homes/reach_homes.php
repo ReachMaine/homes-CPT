@@ -22,7 +22,7 @@ if (!function_exists('create_homes_posttype')) {
 		      'taxonomies' => array('category', 'post_tag'),
 		      'public' => true,
 		      'has_archive' => true,
-		      'supports' => array( 'title', 'editor', 'excerpt', 'custom-fields', 'thumbnail' ),
+		      'supports' => array( 'title', 'editor', 'excerpt', 'custom-fields', 'thumbnail', 'page-attributes' ),
           'menu_icon' => plugins_url( 'images/image.png', __FILE__ ),
           // 'menu_icon' => 'dashicons-admin-multisite',
 		      'rewrite' => array('slug' => 'homes'),
